@@ -1,0 +1,60 @@
+/*
+palette {
+  #02547D;
+  #0284A8;
+  #02BEC4;
+  #A9E8DC;
+  #E1F7E7;
+}
+*/
+
+body {
+  background-color: #E1F7E7;
+  margin: 0;
+  padding: 0;
+}
+
+.scoreBoard {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.scoreBoard ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.scoreBoard li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.scoreBoard li:last-child{
+  display: inline-block;
+  margin-right: 0;
+}
+
+.scoreBoard p {
+  font-size: 2.5em;
+  font-weight: 500;
+  font-style: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.gameBoard {
+  width: 583px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.gameBoard:before {
+  content: "";
+  padding-top: 100%;
+  float: left;
+}
+
+
+
